@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KRAYVO – Discover Products Across Marketplaces</title>
+  <meta name="description" content="KRAYVO helps you find the best products on Amazon, Flipkart, Myntra, Ajio, Meesho, Savana and more. Real prices, one search.">
+  <link rel="canonical" href="https://bibekpatra307-bot.github.io/Krayvo/">
+  <!-- Open Graph -->
+  <meta property="og:title" content="KRAYVO – Discover Products Across Marketplaces">
+  <meta property="og:description" content="Search once, compare everywhere.">
+  <meta property="og:image" content="images/krayvo-logo.png">
+  <meta property="og:url" content="https://bibekpatra307-bot.github.io/Krayvo/">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "KRAYVO",
+    "url": "https://bibekpatra307-bot.github.io/Krayvo/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://bibekpatra307-bot.github.io/Krayvo/pages/search.html?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="/" class="logo"><img src="images/krayvo-logo.png" alt="KRAYVO"></a>
+        <ul class="nav-links">
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="pages/explore.html">Explore</a></li>
+          <li><a href="pages/platforms.html">Platforms</a></li>
+          <li><a href="pages/deals.html">Deals</a></li>
+          <li><a href="pages/wishlist.html">Wishlist</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <h1>Discover products across marketplaces</h1>
+        <p>One search, all platforms. Real prices, trusted stores.</p>
+        <div class="search-bar">
+          <input type="text" placeholder="Search for anything..." id="homeSearch">
+          <button onclick="window.location.href='pages/search.html?q='+encodeURIComponent(document.getElementById('homeSearch').value)">🔍</button>
+        </div>
+        <div class="platform-quick-links">
+          <a href="pages/platforms.html?platform=amazon">Amazon</a>
+          <a href="pages/platforms.html?platform=flipkart">Flipkart</a>
+          <a href="pages/platforms.html?platform=myntra">Myntra</a>
+          <a href="pages/platforms.html?platform=ajio">Ajio</a>
+          <a href="pages/platforms.html?platform=meesho">Meesho</a>
+          <a href="pages/platforms.html?platform=savana">Savana</a>
+        </div>
+        <div class="trending-chips">
+          <span class="chip">wireless earbuds</span>
+          <span class="chip">running shoes</span>
+          <span class="chip">kurtas</span>
+          <span class="chip">sarees</span>
+          <span class="chip">smartphones</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trending Products Grid -->
+    <section class="container">
+      <h2 class="section-title">Trending Now</h2>
+      <div id="home-product-grid" class="product-grid">
+        <!-- dynamically filled by main.js -->
+      </div>
+    </section>
+
+    <!-- More sections can be added, keeping consistent -->
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Platforms</h4>
+          <ul>
+            <li><a href="pages/platforms.html?platform=amazon">Amazon</a></li>
+            <li><a href="pages/platforms.html?platform=flipkart">Flipkart</a></li>
+            <li><a href="pages/platforms.html?platform=myntra">Myntra</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/careers.html">Careers</a></li>
+            <li><a href="pages/press.html">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="pages/help-center.html">Help Center</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="pages/faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="pages/privacy-policy.html">Privacy</a></li>
+            <li><a href="pages/terms.html">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 KRAYVO. All rights reserved.</span>
+        <div class="social-links">
+          <a href="#">𝕏</a>
+          <a href="#">📷</a>
+          <a href="#">▶️</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
