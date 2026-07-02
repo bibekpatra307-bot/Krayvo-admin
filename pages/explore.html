@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Products – KRAYVO</title>
+  <meta name="description" content="Browse curated product collections across all marketplaces.">
+  <link rel="canonical" href="https://bibekpatra307-bot.github.io/Krayvo/pages/explore.html">
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "CollectionPage", "name": "Explore Products", "url": "https://bibekpatra307-bot.github.io/Krayvo/pages/explore.html" }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="../index.html" class="logo"><img src="../images/krayvo-logo.png" alt="KRAYVO"></a>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="explore.html" class="active">Explore</a></li>
+          <li><a href="platforms.html">Platforms</a></li>
+          <li><a href="wishlist.html">Wishlist</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <h1>Explore Products</h1>
+    <p>Curated picks from all platforms.</p>
+    <div id="explore-grid" class="product-grid"></div>
+  </main>
+  <footer><!-- same footer structure --></footer>
+  <script src="../js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      window.loadProducts('#explore-grid');
+    });
+  </script>
+</body>
+</html>
