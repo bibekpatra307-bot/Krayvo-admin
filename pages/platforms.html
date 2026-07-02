@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Platforms – KRAYVO</title>
+  <meta name="description" content="Shop by platform: Amazon, Flipkart, Myntra, Ajio, Meesho, Savana.">
+  <link rel="canonical" href="https://bibekpatra307-bot.github.io/Krayvo/pages/platforms.html">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header><!-- same nav --></header>
+  <main class="container">
+    <h1>Browse by Platform</h1>
+    <div class="platform-quick-links" style="justify-content:flex-start; margin:24px 0">
+      <a href="?platform=amazon" class="active">Amazon</a>
+      <a href="?platform=flipkart">Flipkart</a>
+      <a href="?platform=myntra">Myntra</a>
+      <a href="?platform=ajio">Ajio</a>
+      <a href="?platform=meesho">Meesho</a>
+      <a href="?platform=savana">Savana</a>
+    </div>
+    <div id="platform-product-grid" class="product-grid"></div>
+  </main>
+  <footer><!-- same --></footer>
+  <script src="../js/main.js"></script>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const platform = params.get('platform') || 'amazon';
+    document.querySelectorAll('.platform-quick-links a').forEach(a => a.classList.remove('active'));
+    document.querySelector(`.platform-quick-links a[href="?platform=${platform}"]`)?.classList.add('active');
+    document.addEventListener('DOMContentLoaded', () => {
+      window.loadProducts('#platform-product-grid', platform);
+    });
+  </script>
+</body>
+</html>
