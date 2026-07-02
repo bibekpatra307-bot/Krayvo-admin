@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0a0a0f">
+    <meta name="color-scheme" content="dark light">
+
+    <!-- Primary SEO Meta Tags -->
+    <title>KRAYVO | Multi-Marketplace Ecommerce Discovery Platform</title>
+    <meta name="description" content="KRAYVO — Discover and compare millions of products across Amazon, Flipkart, Myntra, Ajio, Meesho, Savana & more. One search, every marketplace. Smart shopping starts here.">
+    <meta name="keywords" content="KRAYVO, multi marketplace search, compare prices, Amazon, Flipkart, Myntra, Ajio, Meesho, Savana, online shopping India, product discovery, ecommerce aggregator, best deals, fashion search, electronics search">
+    <meta name="author" content="KRAYVO">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="canonical" href="https://krayvo.com/">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://krayvo.com/">
+    <meta property="og:title" content="KRAYVO — Multi-Marketplace Ecommerce Discovery">
+    <meta property="og:description" content="One search. Every marketplace. Discover products across Amazon, Flipkart, Myntra, Ajio, Meesho, Savana & more. Smart shopping made simple.">
+    <meta property="og:image" content="https://krayvo.com/images/krayvo-og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="KRAYVO Multi-Marketplace Platform">
+    <meta property="og:site_name" content="KRAYVO">
+    <meta property="og:locale" content="en_IN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://krayvo.com/">
+    <meta name="twitter:title" content="KRAYVO — Multi-Marketplace Ecommerce Discovery">
+    <meta name="twitter:description" content="One search. Every marketplace. Discover, compare, and shop smarter.">
+    <meta name="twitter:image" content="https://krayvo.com/images/krayvo-og-image.jpg">
+    <meta name="twitter:site" content="@krayvo">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "@id": "https://krayvo.com/#website",
+            "url": "https://krayvo.com/",
+            "name": "KRAYVO",
+            "alternateName": "KRAYVO Multi-Marketplace Discovery",
+            "description": "Multi-marketplace ecommerce discovery platform. Search across Amazon, Flipkart, Myntra, Ajio, Meesho, Savana & more from one interface.",
+            "publisher": {
+                "@type": "Organization",
+                "@id": "https://krayvo.com/#organization",
+                "name": "KRAYVO",
+                "url": "https://krayvo.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://krayvo.com/images/krayvo-logo.png",
+                    "width": "512",
+                    "height": "512"
+                },
+                "sameAs": [
+                    "https://twitter.com/krayvo",
+                    "https://instagram.com/krayvo",
+                    "https://linkedin.com/company/krayvo"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+91-XXXXXXXXXX",
+                    "contactType": "customer service",
+                    "areaServed": "IN",
+                    "availableLanguage": ["en", "hi"]
+                }
+            },
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://krayvo.com/search?q={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+            },
+            "inLanguage": "en",
+            "countryOfOrigin": "IN"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "@id": "https://krayvo.com/#organization",
+            "name": "KRAYVO",
+            "url": "https://krayvo.com/",
+            "logo": "https://krayvo.com/images/krayvo-logo.png",
+            "foundingDate": "2025",
+            "description": "Premium multi-marketplace ecommerce discovery platform serving India.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://krayvo.com/"
+                }
+            ]
+        }
+    </script>
+
+    <!-- DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/product-grid.css">
+    <link rel="stylesheet" href="css/marketplace-gateway.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/accessibility.css">
+    <link rel="stylesheet" href="css/seo-pages.css">
+    <link rel="stylesheet" href="css/blog.css">
+
+    <!-- Preload Critical Assets -->
+    <link rel="preload" as="image" href="images/krayvo-logo.png" type="image/png">
+    <link rel="preload" as="style" href="css/critical.css">
+    <style id="critical-css">
+        /* Critical above-the-fold CSS */
+        :root{--krayvo-bg:#0a0a0f;--krayvo-surface:#12121a;--krayvo-primary:#7c5cfc;--krayvo-accent:#00e4c8;--krayvo-text:#e8e8f0;--krayvo-text-secondary:#9898b0;--krayvo-border:#1e1e2e;--krayvo-glow:0 0 40px rgba(124,92,252,0.25)}
+        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+        body{background:var(--krayvo-bg);color:var(--krayvo-text);font-family:'Inter','Segoe UI',system-ui,-apple-system,sans-serif;line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+        .krayvo-header{position:sticky;top:0;z-index:1000;background:rgba(10,10,15,0.92);-webkit-backdrop-filter:blur(20px) saturate(180%);backdrop-filter:blur(20px) saturate(180%);border-bottom:1px solid var(--krayvo-border);transition:all 0.3s ease}
+        .krayvo-header__inner{display:flex;align-items:center;justify-content:space-between;max-width:1320px;margin:0 auto;padding:10px 20px;gap:16px}
+        .krayvo-logo{flex-shrink:0;display:flex;align-items:center;gap:8px;text-decoration:none}
+        .krayvo-logo img{height:38px;width:auto;object-fit:contain}
+        .krayvo-search-bar{flex:1;max-width:520px;display:flex;align-items:center;background:var(--krayvo-surface);border:2px solid var(--krayvo-border);border-radius:50px;overflow:hidden;transition:border-color 0.25s ease,box-shadow 0.25s ease}
+        .krayvo-search-bar:focus-within{border-color:var(--krayvo-primary);box-shadow:var(--krayvo-glow)}
+        .krayvo-search-bar input{flex:1;background:transparent;border:none;color:var(--krayvo-text);padding:12px 18px;font-size:0.95rem;outline:none;min-width:0}
+        .krayvo-search-bar input::placeholder{color:var(--krayvo-text-secondary)}
+        .krayvo-search-bar button{background:var(--krayvo-primary);border:none;color:#fff;padding:10px 22px;cursor:pointer;font-weight:600;font-size:0.9rem;border-radius:0 48px 48px 0;transition:background 0.25s ease;white-space:nowrap}
+        .krayvo-search-bar button:hover{background:#6a4ae0}
+        .krayvo-nav-links{display:flex;align-items:center;gap:6px;flex-wrap:wrap;list-style:none}
+        .krayvo-nav-links a{color:var(--krayvo-text-secondary);text-decoration:none;padding:8px 14px;border-radius:8px;font-size:0.9rem;font-weight:500;transition:color 0.2s ease,background 0.2s ease;white-space:nowrap}
+        .krayvo-nav-links a:hover,.krayvo-nav-links a.active{color:var(--krayvo-text);background:var(--krayvo-surface)}
+        .krayvo-mobile-menu-btn{display:none;background:none;border:none;color:var(--krayvo-text);font-size:1.5rem;cursor:pointer;padding:6px}
+        @media(max-width:968px){.krayvo-nav-links{display:none}.krayvo-mobile-menu-btn{display:block}.krayvo-search-bar{max-width:340px}}
+        @media(max-width:600px){.krayvo-header__inner{padding:8px 12px;gap:8px}.krayvo-logo img{height:30px}.krayvo-search-bar{max-width:100%}.krayvo-search-bar input{padding:10px 12px;font-size:0.85rem}.krayvo-search-bar button{padding:8px 14px;font-size:0.8rem}}
+    </style>
+    <noscript><link rel="stylesheet" href="css/noscript.css"></noscript>
+</head>
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="skip-link" aria-label="Skip to main content">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="krayvo-header" role="banner">
+        <div class="krayvo-header__inner">
+            <a href="/" class="krayvo-logo" aria-label="KRAYVO Home">
+                <img src="images/krayvo-logo.png" alt="KRAYVO Logo" width="38" height="38" loading="eager" decoding="async">
+                <span class="krayvo-logo-text">KRAYVO</span>
+            </a>
+            <form class="krayvo-search-bar" id="header-search" role="search" aria-label="Product search" action="/search" method="get">
+                <input type="search" name="q" placeholder="Search across all marketplaces..." aria-label="Search products" autocomplete="off" id="main-search-input">
+                <button type="submit" aria-label="Search">Search</button>
+            </form>
+            <nav aria-label="Main navigation">
+                <button class="krayvo-mobile-menu-btn" id="mobile-menu-toggle" aria-expanded="false" aria-label="Toggle menu">☰</button>
+                <ul class="krayvo-nav-links" id="main-nav-links">
+                    <li><a href="/explore" class="active">Explore</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/deals">Deals</a></li>
+                    <li><a href="/trending">Trending</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="krayvo-mobile-drawer" id="mobile-drawer" aria-hidden="true">
+        <div class="krayvo-mobile-drawer__backdrop" id="drawer-backdrop"></div>
+        <nav class="krayvo-mobile-drawer__content" role="navigation" aria-label="Mobile navigation">
+            <button class="krayvo-mobile-drawer__close" id="drawer-close" aria-label="Close menu">✕</button>
+            <ul>
+                <li><a href="/explore">🔍 Explore</a></li>
+                <li><a href="/categories">📂 Categories</a></li>
+                <li><a href="/deals">🔥 Deals</a></li>
+                <li><a href="/trending">📈 Trending</a></li>
+                <li><a href="/new-arrivals">🆕 New Arrivals</a></li>
+                <li><a href="/best-sellers">⭐ Best Sellers</a></li>
+                <li><a href="/wishlist">💜 Wishlist</a></li>
+                <li><a href="/compare">⚖️ Compare</a></li>
+                <li><a href="/blog">📝 Blog</a></li>
+                <li><a href="/about">ℹ️ About</a></li>
+                <li><a href="/contact">📧 Contact</a></li>
+                <li><a href="/faq">❓ FAQ</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- ============ HERO SECTION (Improved) ============ -->
+        <section class="krayvo-hero" aria-labelledby="hero-heading">
+            <div class="krayvo-hero__inner">
+                <div class="krayvo-hero__content">
+                    <span class="krayvo-hero__badge">✨ Multi-Marketplace Discovery</span>
+                    <h1 id="hero-heading" class="krayvo-hero__title">
+                        One Search.<br><span class="gradient-text">Every Marketplace.</span>
+                    </h1>
+                    <p class="krayvo-hero__subtitle">
+                        Discover millions of products across Amazon, Flipkart, Myntra, Ajio, Meesho, Savana & more — all from one place.
+                    </p>
+                    <form class="krayvo-hero__search" role="search" action="/search" method="get">
+                        <div class="krayvo-hero__search-wrapper">
+                            <span class="search-icon">🔍</span>
+                            <input type="search" name="q" placeholder="What are you looking for today?" aria-label="Search products across all marketplaces" autocomplete="off">
+                            <button type="submit">Discover</button>
+                        </div>
+                    </form>
+                    <div class="krayvo-hero__marketplaces">
+                        <span>Supported:</span>
+                        <div class="marketplace-badges">
+                            <span class="mp-badge amazon">Amazon</span>
+                            <span class="mp-badge flipkart">Flipkart</span>
+                            <span class="mp-badge myntra">Myntra</span>
+                            <span class="mp-badge ajio">Ajio</span>
+                            <span class="mp-badge meesho">Meesho</span>
+                            <span class="mp-badge savana">Savana</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="krayvo-hero__visual" aria-hidden="true">
+                    <div class="hero-orb"></div>
+                    <div class="hero-float-card card-1">🛍️ Best Deals</div>
+                    <div class="hero-float-card card-2">📊 Compare Prices</div>
+                    <div class="hero-float-card card-3">⚡ Fast Discovery</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ FEATURED CATEGORIES ============ -->
+        <section class="krayvo-section" aria-labelledby="categories-heading">
+            <div class="krayvo-container">
+                <div class="section-header">
+                    <h2 id="categories-heading">Top Categories</h2>
+                    <a href="/categories" class="view-all-link">View All →</a>
+                </div>
+                <div class="category-grid" id="category-grid">
+                    <!-- Rendered by JS for performance -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ PRODUCT GRID - Trending ============ -->
+        <section class="krayvo-section" aria-labelledby="trending-heading">
+            <div class="krayvo-container">
+                <div class="section-header">
+                    <h2 id="trending-heading">🔥 Trending Now</h2>
+                    <a href="/trending" class="view-all-link">View All →</a>
+                </div>
+                <div class="product-grid" id="trending-product-grid">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ PRODUCT GRID - Deals ============ -->
+        <section class="krayvo-section krayvo-section--alt" aria-labelledby="deals-heading">
+            <div class="krayvo-container">
+                <div class="section-header">
+                    <h2 id="deals-heading">💸 Best Deals</h2>
+                    <a href="/deals" class="view-all-link">View All →</a>
+                </div>
+                <div class="product-grid" id="deals-product-grid">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ MARKETPLACE SHOWCASE ============ -->
+        <section class="krayvo-section" aria-labelledby="marketplaces-heading">
+            <div class="krayvo-container">
+                <div class="section-header">
+                    <h2 id="marketplaces-heading">Our Marketplaces</h2>
+                </div>
+                <div class="marketplace-showcase-grid" id="marketplace-showcase">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ BLOG PREVIEW ============ -->
+        <section class="krayvo-section krayvo-section--alt" aria-labelledby="blog-heading">
+            <div class="krayvo-container">
+                <div class="section-header">
+                    <h2 id="blog-heading">📝 Shopping Guides & Articles</h2>
+                    <a href="/blog" class="view-all-link">Read More →</a>
+                </div>
+                <div class="blog-preview-grid" id="blog-preview-grid">
+                    <!-- Rendered by JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ NEWSLETTER ============ -->
+        <section class="krayvo-section krayvo-newsletter" aria-labelledby="newsletter-heading">
+            <div class="krayvo-container">
+                <div class="newsletter-inner">
+                    <h2 id="newsletter-heading">Stay Ahead of Every Deal</h2>
+                    <p>Get curated deals, trending products, and shopping insights delivered to your inbox.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Your email address" aria-label="Email for newsletter" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="krayvo-footer" role="contentinfo">
+        <div class="krayvo-container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/krayvo-logo.png" alt="KRAYVO" class="footer-logo" width="40" height="40" loading="lazy">
+                    <p class="footer-tagline">One Search. Every Marketplace.</p>
+                    <p class="footer-desc">KRAYVO is India's premium multi-marketplace ecommerce discovery platform. We help you find, compare, and discover products across all major online marketplaces from one unified interface.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="/explore">Explore Products</a></li>
+                        <li><a href="/categories">Categories</a></li>
+                        <li><a href="/deals">Deals</a></li>
+                        <li><a href="/trending">Trending</a></li>
+                        <li><a href="/new-arrivals">New Arrivals</a></li>
+                        <li><a href="/best-sellers">Best Sellers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Marketplaces</h3>
+                    <ul>
+                        <li><a href="/marketplace/amazon">Amazon Gateway</a></li>
+                        <li><a href="/marketplace/flipkart">Flipkart</a></li>
+                        <li><a href="/marketplace/myntra">Myntra Gateway</a></li>
+                        <li><a href="/marketplace/ajio">Ajio Gateway</a></li>
+                        <li><a href="/marketplace/meesho">Meesho Gateway</a></li>
+                        <li><a href="/marketplace/savana">Savana</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/press">Press</a></li>
+                        <li><a href="/community">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="/help-center">Help Center</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/contact">Contact Support</a></li>
+                        <li><a href="/report-abuse">Report Abuse</a></li>
+                        <li><a href="/accessibility">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms">Terms of Service</a></li>
+                        <li><a href="/cookie-policy">Cookie Policy</a></li>
+                        <li><a href="/copyright-policy">Copyright Policy</a></li>
+                        <li><a href="/disclaimer">Disclaimer</a></li>
+                        <li><a href="/data-policy">Data Policy</a></li>
+                        <li><a href="/refund-policy">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 KRAYVO. All rights reserved. Made with ❤️ in India.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="LinkedIn">💼</a>
+                    <a href="#" aria-label="YouTube">▶️</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/utils.js" defer></script>
+    <script src="js/data/categories.js" defer></script>
+    <script src="js/data/products.js" defer></script>
+    <script src="js/data/marketplaces.js" defer></script>
+    <script src="js/data/blog-posts.js" defer></script>
+    <script src="js/components/category-grid.js" defer></script>
+    <script src="js/components/product-grid.js" defer></script>
+    <script src="js/components/marketplace-showcase.js" defer></script>
+    <script src="js/components/blog-preview.js" defer></script>
+    <script src="js/components/mobile-menu.js" defer></script>
+    <script src="js/marketplace-handler.js" defer></script>
+    <script src="js/search.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/analytics.js" defer></script>
+
+    <!-- JSON-LD FAQ Schema -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "What is KRAYVO?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "KRAYVO is a multi-marketplace ecommerce discovery platform that lets you search and compare products across Amazon, Flipkart, Myntra, Ajio, Meesho, Savana, and more from one unified interface."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is KRAYVO free to use?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, KRAYVO is completely free for shoppers. We help you discover products across multiple marketplaces without any charges."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which marketplaces does KRAYVO support?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "KRAYVO supports Amazon, Flipkart, Myntra, Ajio, Meesho, Savana, and continues to add more marketplaces regularly."
+                    }
+                }
+            ]
+        }
+    </script>
+</body>
+</html>
